@@ -1,0 +1,4 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Testing different request on user from Petstore","As a user I want to check that T can create user","SUCCESS","2023-01-10T23:24:14.926Z[Europe/London]","0.0","10.18"
+"Testing different request on user from Petstore","As a user I want to updaet user","SUCCESS","2023-01-10T23:24:27.708Z[Europe/London]","0.0","0.91"
+"Testing different request on user from Petstore","As a user I want to delete the user","SUCCESS","2023-01-10T23:24:28.639Z[Europe/London]","0.0","2.49"

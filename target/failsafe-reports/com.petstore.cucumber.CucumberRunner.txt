@@ -1,0 +1,24 @@
+-------------------------------------------------------------------------------
+Test set: com.petstore.cucumber.CucumberRunner
+-------------------------------------------------------------------------------
+Tests run: 19, Failures: 2, Errors: 0, Skipped: 1, Time elapsed: 20.411 sec <<< FAILURE! - in com.petstore.cucumber.CucumberRunner
+When User send a get request with username(Scenario: As a user I want to check that user is created)  Time elapsed: 0.005 sec  <<< FAILURE!
+java.lang.AssertionError: 
+Expected: map containing [ANYTHING->"Parvati"]
+     but: map was [<code=1>, <type=error>, <message=User not found>]
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.junit.Assert.assertThat(Assert.java:956)
+	at org.junit.Assert.assertThat(Assert.java:923)
+	at com.petstore.cucumber.steps.StepsOfUser.userSendAGetRequestWithUsername(StepsOfUser.java:43)
+	at ✽.When User send a get request with username(user.feature:9)
+
+Scenario: As a user I want to check that user is created  Time elapsed: 0.006 sec  <<< FAILURE!
+java.lang.AssertionError: 
+Expected: map containing [ANYTHING->"Parvati"]
+     but: map was [<code=1>, <type=error>, <message=User not found>]
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.junit.Assert.assertThat(Assert.java:956)
+	at org.junit.Assert.assertThat(Assert.java:923)
+	at com.petstore.cucumber.steps.StepsOfUser.userSendAGetRequestWithUsername(StepsOfUser.java:43)
+	at ✽.When User send a get request with username(user.feature:9)
+
